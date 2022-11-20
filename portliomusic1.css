@@ -1,0 +1,196 @@
+body{
+	background:url(zadd.jpg)no-repeat;
+	background-size:auto;
+
+	
+}
+.textbox {
+float: right;
+border: 1px solid solid black;
+}
+ul li{
+float:left;
+width: 150px;
+text-transform: capitalize;
+list-style-type: none;
+font-family:kulim park ,sans-serif;
+font-size: 20px;
+}
+ul li a{
+text-decoration: none;
+color:#e9e7e3;
+}
+ul li a:hover{
+	color:white;
+}
+
+.covr{
+border: 1px solid black;
+text-align: center;
+width: 300px;
+height: 450px;
+left: 10%;
+top:20%;
+border-radius: 8px;
+box-shadow: 0px 0px 8px 1px;
+opacity: 0.7;
+position: absolute;
+
+}
+.subcover{
+    border-bottom: 1px solid none;
+    background:black;
+    width: 300px;
+    height: 450px;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+.coverimage{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    top: 10%;   
+    margin: -10px -9px;
+    opacity: 0.9; 
+}
+.text{
+    position: absolute;
+    left: 31%;
+    top: 50%;
+    margin: -1px 10px;
+}
+h1{
+    color:white ;
+    font-family: kulim park, sans-serif;
+    line-height: 10px;
+    font-weight: normal;
+}
+h2{
+    color: white;
+    font-family: kulim park,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: -9px;
+
+}
+.line{
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 220px;
+    box-shadow: 3px 4px 7px;
+    color:#66aae4;
+}
+.fa-circle{
+    color: #e9e7e3;
+    position: absolute;
+    left: 25%;
+    margin-top: -7px;
+}
+.number{
+
+}
+h3{
+    position: absolute;
+    left: 15%;
+    top: 63%;
+    font-size: 14px;
+    color: white;
+    font-family: kulimpark, sans-serif;
+    font-weight: normal;
+}
+h4{
+    position: absolute;
+    left:81%;
+    top: 63%;
+    font-size: 14px;
+    color: white;
+    font-family: kulimpark, sans-serif;
+    font-weight: normal;
+}
+.player{
+    border-bottom: 1px solid white;
+    font-size: 60px;
+}
+.fa-pause-circle{
+    color: #66aae4;
+    position: absolute;
+    left: 40%;
+    top:72%;
+}
+.forward{
+    font-size: 44px;
+}
+.fa-forward{
+    color: white;
+    position: absolute;
+    left: 63%;
+    top: 74%;
+}
+.forward:hover{
+    font-size: 50px;
+}
+
+.backward{
+    font-size: 44px;
+}
+.fa-backward{
+    color: white;
+    position:absolute;
+    left: 22%;
+    top:74%;
+}
+.backward:hover{
+    font-size: 50px;
+}
+
+.repeat{
+    font-size: 20px;
+
+}
+.fa-repeat{
+    color:#66aae4;
+    position: absolute;
+    left: 82%;
+    top: 77%;
+}
+
+.retweet{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.fa-retweet{
+    color: #66aae4;
+    position: absolute;
+    left: 12%;
+    top: 77%;
+}
+
+.icon{
+    font-size: 17px;
+    color: #b1a7a0;
+    font-family: kulim park, sans-serif;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+.fa-music{
+    color:#b1a7a0;
+    font-weight: bold;
+    font-size: 17px;
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+.fa-book{
+    color:#b1a7a0;
+    font-weight: bold;
+    font-size: 17px;
+}

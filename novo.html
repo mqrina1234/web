@@ -1,0 +1,79 @@
+
+
+
+<!doctype html >
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="portliomusic1.css">
+<link href="https://fonts.googleapis.com/css?family=Kulim+Park&display-swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes | Mountains+of+Christmas | Shadows+Into+Light&display-swap"rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wwfXpqpZZVQGK6TAh5PVLGOfQNHSOD2xbE+QKPxCAF LNE evo EH3SLosibVcOQVnN"crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family-Hanalei | Indie+Flower | Orbitron | Righteous&display-swap"rel="stylesheet">
+
+
+</head>
+<body onload="addEvent()">
+    <div class="icon">
+        <span>M</span>arina <span>P</span>apić
+        <i class="fa fa-music" aria-hidden="true"></i> <br>
+        <span>B</span>assrange Productions <span>-</span> <span>S</span>ea & Water
+        <i class="fa-solid fa-book"></i>
+    </div>
+
+
+<div class="covr">
+<div class="subcover">
+</div>
+<div class="cover image">
+<img src="photo.jpg" width="200" height="200">|
+</div>
+
+<div class="text">
+    <h1> More</h1>
+    <h2> Josip Pupačić</h2>
+</div>
+
+<div class="line">
+    <i class="fa fa-circle" aria-hidden="true"></i>
+</div>
+
+<div class="number">
+    <h3>0:19</h3>
+    <h4>3:14</h4>
+</div>
+
+
+<div class="player">
+    <i class="fa fa-pause-circle" aria-hidden="true"></i>
+<div class="forward">
+    <i class="fa fa-forward" aria-hidden="true"></i>
+</div>
+
+<div class="backward">
+    <i class="fa fa-backward" aria-hidden="true"></i>
+</div>
+<div class="retweet">
+    <i class="fa fa-retweet" aria-hidden="true"></i>
+</div>
+<div class="repeat">
+    <i class="fa fa-repeat" aria-hidden="true"></i>
+</div>
+</div>
+
+<script>
+    function addEvent(){
+       document.body.addEventListener("click", play)
+     }
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
+  <audio id="audio" src="horse.mp3"loop ></audio>
+
+
+
+</body>
+</html>
